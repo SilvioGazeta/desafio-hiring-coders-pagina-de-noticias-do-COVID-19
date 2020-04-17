@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="PT-BR">
     <head>
-        <title></title>
+        <title>Breaking News COVID 19</title>
+        <meta charset="UTF-8" />
         <link rel="stylesheet" href="estilo.css" />
     </head>
     <body>
@@ -14,9 +15,31 @@
                 <a href="index.html">HOME</a>
                 <a href="sobre.html">SOBRE</a>
                 <a href="contato.html">CONTATO</a>
-                <a href="#">SAIBA MAIS</a>
+                <a href="saibamais.html">SAIBA MAIS</a>
             </nav>
-            
+            <h2>Entre em contato</h2>
+            <form action="form-contato" action="" method="post">
+                <div id="fomulario">
+                    <div class="nome">
+                        <input type="text" name="nome" placeholder="Digite seu nome" required="required">
+                    </div>
+                    <br>
+                    <div class="email">
+                        <input type="email" name="email" placeholder="Digite seu e-mail" required="required">
+                    </div>
+                    <br>
+                    <div class="assunto">
+                        <input type="text" name="assunto" placeholder="Digite o assunto" required="required">
+                    </div>
+                    <br>
+                    <div class="mensagem">
+                        <textarea name="mensagem" placeholder="Digite sua mensagem"></textarea>
+                    </div>
+                    <div class="enviar">
+                        <input type="submit" name="enviar" valor="Enviar">
+                    </div>
+            </div>
+            </form>            
             <footer>
                 <hr>
                 <p>Todos os Direitos Reservados © 2020 Breaking News COVID 19<br>
