@@ -32,7 +32,7 @@ nav {
     justify-content: space-between;
 }
 
-a {
+.menu a {
     padding-left: 50px;
     padding-right: 50px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -41,7 +41,7 @@ a {
     text-decoration: unset; 
 }
 
-a:hover {
+.menu a:hover {
     font-weight: bolder;
 }
 
@@ -59,8 +59,6 @@ h2 {
 #texto {
     display: flex;
     justify-content: space-between;
-    padding: 0;
-
 }
 
 #audio {
@@ -78,8 +76,9 @@ h2 {
 
 }
 
-h3 {
+.destaque h3 {
     font-family: Arial, Helvetica, sans-serif;
+    width: 360px;
     
 }
 
@@ -118,6 +117,11 @@ img#foto-perfil {
     justify-content: space-between;
 }
 
+.redes div {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 /* Menu Contato */
 
@@ -148,6 +152,3 @@ textarea {
     height: 150px;
     line-height: 20px;
 }
-
-
-/* Menu Contato */
