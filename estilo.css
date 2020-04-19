@@ -51,17 +51,7 @@ h2 {
     color: #4F4F4F;
 }
 
-#video {
-    display: flex;
-    justify-content: space-between;
-}
-
-#texto {
-    display: flex;
-    justify-content: space-between;
-}
-
-#audio {
+.midia {
     display: flex;
     justify-content: space-between;
 }
@@ -72,14 +62,12 @@ h2 {
 
 .noticias img {
     width: 360px;
-    height: 215;
-
+    height: 215px;
 }
 
-.destaque h3 {
+.destaque {
     font-family: Arial, Helvetica, sans-serif;
-    width: 360px;
-    
+    color: #4F4F4F;   
 }
 
 hr {
@@ -117,11 +105,14 @@ img#foto-perfil {
     justify-content: space-between;
 }
 
-.redes div {
+#redes {
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 5px;    
 }
-
 
 /* Menu Contato */
 
@@ -140,6 +131,7 @@ input, textarea {
     height: 50px;
     border-radius: 10px;
     cursor: pointer;
+    margin-bottom: 5px;
 }
 
 .enviar input:hover {
@@ -151,4 +143,10 @@ textarea {
     width: 500px;
     height: 150px;
     line-height: 20px;
+}
+
+form {
+    display:flex;
+    justify-content:center;
+    align-items: center;
 }
