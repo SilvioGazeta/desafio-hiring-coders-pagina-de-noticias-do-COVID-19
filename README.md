@@ -1,1 +1,1 @@
-# pagina-de-noticias-do-COVID-19
+# Desafio: Página de Notícias do COVID-19
